@@ -1,7 +1,13 @@
 package demo;
 
 import java.util.Scanner;
-
+/**
+ * 任务三：实现 2^x mod n = 1  关键算法(25  分)
+ * 给你一个数字 n，找到满足 2^x mod n = 1 的最小值 x，
+ * 如果 x 存在，则输出“2 ^x mod n = 1”，
+ * 否则输出“2 ^? mod n = 1”，您 需要用真实的 x 和 n 的值来替代字符串中的变量。
+ * 例如输入 5，输出 答案为 2^4 mod 5 = 1。
+ */
 public class quyu {
     public static void main(String[] args) {
         // 接收用户输入:
