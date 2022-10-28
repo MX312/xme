@@ -20,11 +20,11 @@ public class lingxing {
 
         }
         for (int i = 0; i <input ; i++) {
-            System.out.print("/");
+            System.out.print("1");
             for (int j = 0; j <i+1 ; j++) {
-                System.out.print("/");
+                System.out.print("2");
             }
-            for (int j = input; j >2*i-1 ; j--) {
+            for (int k = input-1; k >2*i-1 ; k--) {
                 System.out.print("*");
             }
             System.out.println();
